@@ -8,7 +8,7 @@ from colorama import init, Fore, Style
 
 init()
 
-MITMDUMP = r"C:\Users\iexagq\AppData\Roaming\Python\Python314\Scripts\mitmdump.exe"
+MITMDUMP = r"C:\Users\%username%\AppData\Roaming\Python\Python314\Scripts\mitmdump.exe"
 PORT = 8082
 
 def check_webhook_silently():
